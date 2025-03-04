@@ -16,8 +16,8 @@ build:
 
 requirements:
   run_constraints:
-    - protobuf ${{ major }}.${{ version }}
-    - libprotobuf ${{ major }}.${{ version }}
+    - protobuf ${{ major }}.${{ version }}.*
+    - libprotobuf ${{ major }}.${{ version }}.*
 
 tests:
   - package_contents:
