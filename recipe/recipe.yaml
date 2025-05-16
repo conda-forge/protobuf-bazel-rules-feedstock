@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://github.com/protocolbuffers/protobuf/releases/download/v${{ version }}/protobuf-${{ version }}.tar.gz
-  sha256: 9df0e9e8ebe39f4fbbb9cf7db3d811287fe3616b2f191eb2bf5eaa12539c881f
+  sha256: 1451b03faec83aed17cdc71671d1bbdfd72e54086b827f5f6fd02bf7a4041b68
 
 build:
   number: 0
