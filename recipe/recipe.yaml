@@ -11,7 +11,7 @@ source:
   sha256: c6c7c27fadc19d40ab2eaa23ff35debfe01f6494a8345559b9bb285ce4144dd1
 
 build:
-  number: 0
+  number: 1
   noarch: generic
 
 requirements:
@@ -23,6 +23,7 @@ tests:
   - package_contents:
       files:
         - share/bazel/protobuf/bazel/cc_proto_library.bzl
+        - share/bazel/upb/bazel/upb_c_proto_library.bzl
 
 about:
   homepage: https://developers.google.com/protocol-buffers/
