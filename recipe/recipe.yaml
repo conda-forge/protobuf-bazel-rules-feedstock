@@ -1,5 +1,5 @@
 context:
-  version: "34.0"
+  version: "34.1"
   major: 6
 
 package:
@@ -8,10 +8,10 @@ package:
 
 source:
   url: https://github.com/protocolbuffers/protobuf/releases/download/v${{ version }}/protobuf-${{ version }}.tar.gz
-  sha256: e540aae70d3b4f758846588768c9e39090fab880bc3233a1f42a8ab8d3781efd
+  sha256: e4e6ff10760cf747a2decd1867741f561b216bd60cc4038c87564713a6da1848
 
 build:
-  number: 1
+  number: 0
   noarch: generic
 
 requirements:
