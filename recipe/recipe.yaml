@@ -1,6 +1,6 @@
 context:
   version: "35.1"
-  major: 6
+  major: 7
 
 package:
   name: protobuf-bazel-rules
@@ -11,7 +11,7 @@ source:
   sha256: f0b6838e7522a8da96126d487068c959bc624926368f3024ac8fd03abd0a1ac4
 
 build:
-  number: 0
+  number: 1
   noarch: generic
 
 requirements:
